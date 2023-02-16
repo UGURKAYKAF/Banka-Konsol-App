@@ -1,0 +1,58 @@
+.
+└── -Yapamk istediğiniz işlemi seçiniz/
+    ├── (1) Para Çekme/
+    │   ├── -Hesap Bakiyenizi giriniz/
+    │   │   └── <<-- Kullanıcıdan bakiye istenir -->>
+    │   ├── -Hesabinizdan cekmek istediginiz tutari giriniz /
+    │   │   └── <<-- Kullanıcıdan para çekme tutarı istenir -->>
+    │   ├── <<Yeni Bakiye ...>>
+    │   ├── <<Hesabınızdan çekilen tutar ...>>
+    │   └── Menu'ye donmek icin (A)'ya basiniz
+    ├── (2) Para Yatırma/
+    │   ├── -Hesap Bakiyenizi giriniz/
+    │   │   └── <<-- Kullanıcıdan bakiye istenir -->>
+    │   ├── -Hesabiniza yatımak istediginiz tutari giriniz /
+    │   │   └── <<-- Kullanıcıdan yatırmak istediği tutar istenir -->>
+    │   ├── <<Yeni Bakiye ...>>
+    │   ├── <<Hesabınıza yatırılan tutar ...>>
+    │   └── Menu'ye donmek icin (A)'ya basiniz
+    ├── (3) Kredi İşlmeleri/
+    │   ├── -Hesap Bakiyenizi giriniz/
+    │   │   └── <<-- Kullanıcıdan bakiye istenir -->>
+    │   └── -Kredi türünüzü seçiniz/
+    │       ├── (1)-Tarım Kredisi/
+    │       │   ├── -İstediğiniz Kredi tutarını giriniz
+    │       │   ├── <<-- Kullanıcıdan Kredi tutarı istenir -->>
+    │       │   ├── <<Faiz Tutarınız ...>>
+    │       │   ├── <<Bankaya ödenecek faizli tutar ...>>
+    │       │   ├── Menu'ye donmek icin (A)'ya basiniz
+    │       │   └── Kredi menüsüne donmek icin (B)'ye basiniz
+    │       ├── (2)-Taşıt kredisi/
+    │       │   ├── -İstediğiniz Kredi tutarını giriniz
+    │       │   ├── <<-- Kullanıcıdan Kredi tutarı istenir -->>
+    │       │   ├── <<Faiz Tutarınız ...>>
+    │       │   ├── <<Bankaya ödenecek faizli tutar ...>>
+    │       │   ├── Menu'ye donmek icin (A)'ya basiniz
+    │       │   └── Kredi menüsüne donmek icin (B)'ye basiniz
+    │       ├── (3)-Konut Kredisi/
+    │       │   ├── -İstediğiniz Kredi tutarını giriniz
+    │       │   ├── <<-- Kullanıcıdan Kredi tutarı istenir -->>
+    │       │   ├── <<Faiz Tutarınız ...>>
+    │       │   ├── <<Bankaya ödenecek faizli tutar ...>>
+    │       │   ├── Menu'ye donmek icin (A)'ya basiniz
+    │       │   └── Kredi menüsüne donmek icin (B)'ye basiniz
+    │       └── (4)-İhtiyaç Kredisi/
+    │           ├── -İstediğiniz Kredi tutarını giriniz
+    │           ├── <<-- Kullanıcıdan Kredi tutarı istenir -->>
+    │           ├── <<Faiz Tutarınız ...>>
+    │           ├── <<Bankaya ödenecek faizli tutar ...>>
+    │           ├── Menu'ye donmek icin (A)'ya basiniz
+    │           └── Kredi menüsüne donmek icin (B)'ye basiniz
+    └── (4) Faiz işlemleri/
+        ├── -Hesap Bakiyenizi giriniz
+        ├── <<-- Kullanıcıdan bakiye istenir -->>
+        ├── -Faiz'e yatırılacak ana parayı giriniz
+        ├── <<-- Kullanıcıdan faize yatırılacak ana para istenir -->>
+        ├── -Faiz kaç günlük olsun   
+        ├── <<-- Kullanıcıdan faiz günü istenir -->>
+        └── <<Faiz'den gelen para ...>>
